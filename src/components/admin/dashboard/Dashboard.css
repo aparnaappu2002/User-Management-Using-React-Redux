@@ -1,0 +1,170 @@
+/* Dashboard.css */
+
+/* Container Styles */
+.dashboard-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Title Styles */
+.dashboard-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Table Styles */
+.user-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    overflow: hidden;
+    margin-top: 15%;
+}
+
+.user-table thead {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.user-table th,
+.user-table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.user-table th {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.user-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Image Styles */
+.user-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Button Styles */
+.edit-btn,
+.delete-btn {
+    padding: 8px 12px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.edit-btn {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+/* Button Hover Effects */
+.edit-btn:hover {
+    background-color: #218838;
+}
+
+.delete-btn:hover {
+    background-color: #c82333;
+}
+/* Table Heading Styles */
+.user-table thead {
+    background-color: #007bff; /* Blue background */
+    color: #ffffff; /* White text */
+    font-size: 18px; /* Slightly larger font size */
+    font-weight: bold;
+}
+
+/* Ensure the table heading cells have padding */
+.user-table thead th {
+    padding: 15px;
+}
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .user-table th,
+    .user-table td {
+        padding: 10px;
+    }
+
+    .edit-btn,
+    .delete-btn {
+        padding: 6px 10px;
+        font-size: 12px;
+    }
+}
+.dashboard-controls {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.search-box {
+    padding: 10px;
+    font-size: 16px;
+    width: 50%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.add-user-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-user-btn:hover {
+    background-color: #45a049;
+}
+.dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.button-group {
+    display: flex;
+    justify-content: flex-start; /* Buttons will align to the start */
+    margin-bottom: 20px; /* Space between buttons and the table */
+}
+.logout-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.logout-btn:hover {
+    background-color: #d32f2f;
+}
+
+
